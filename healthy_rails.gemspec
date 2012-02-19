@@ -7,11 +7,10 @@ require "healthy_rails/version"
 Gem::Specification.new do |s|
   s.name        = "healthy_rails"
   s.version     = HealthyRails::VERSION
-  s.authors     = ["TODO: Your name"]
-  s.email       = ["TODO: Your email"]
-  s.homepage    = "TODO"
-  s.summary     = "TODO: Summary of HealthyRails."
-  s.description = "TODO: Description of HealthyRails."
+  s.authors     = ["Anthony White"]
+  s.email       = ["anthony.white.j@gmail.com"]
+  s.homepage    = ""
+  s.summary     = "Provide easy health monitoring of Rails 3 applications."
 
   s.files = Dir["{app,config,db,lib}/**/*"] + ["MIT-LICENSE", "Rakefile", "README.rdoc"]
   s.test_files = Dir["test/**/*"]
